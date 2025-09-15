@@ -176,4 +176,16 @@ git log is used to check if any file is added to save.
 
 to go in the past version - git checkout id ()
 
-to go in the current version - git master
+- git log --all  will show the history of changes.
+
+- git log --all --oneline
+
+- git log --all --oneline --graph
+
+- head keyword will tell you which branch or directory currently you are.
+
+- ctrl + shift + p  entering command in above search bar
+
+- git branch (name)  => method for creating branch
+
+- git branch --delete (name)
