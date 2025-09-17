@@ -189,3 +189,48 @@ to go in the past version - git checkout id ()
 - git branch (name)  => method for creating branch
 
 - git branch --delete (name)
+
+
+- git remote show origin => git remote add origin https://github.com/vin8921/learning-git.git 
+
+Got it 👍 — you’re asking about the **code snippet sections** that GitHub shows right after creating a new repo (the part with commands you can copy-paste).
+
+Here’s how you find them again if you’ve already left the page:
+
+1. **Go to your repository on GitHub.**
+   Example: `https://github.com/<your-username>/<your-repo>`
+
+2. On the main repo page (above the file list), look for the **green “<> Code” button**.
+
+   * Click it → you’ll see HTTPS/SSH/CLI clone URLs.
+
+3. If you specifically want the **full setup snippets** (like `git init`, `git add .`, `git commit -m "first commit"`, `git push`), they are shown only once right after repo creation.
+
+   * To see them again, open your repo → click on **"…or push an existing repository from the command line"** under the **Code** button → expand, and you’ll see the exact commands.
+
+Here’s what the two main snippet sections usually look like:
+
+**Option 1: Create a new repo on the command line**
+
+```bash
+echo "# repo-name" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/username/repo-name.git
+git push -u origin main
+```
+
+**Option 2: Push an existing repo from the command line**
+
+```bash
+git remote add origin https://github.com/username/repo-name.git
+git branch -M main
+git push -u origin main
+```
+
+⚡ Question: Do you want me to show you **exact code snippets customized** for your repo (with your GitHub username + repo name), so you can copy-paste directly?
+
+
+renaming in git = > git M-main
