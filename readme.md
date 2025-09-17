@@ -234,3 +234,5 @@ git push -u origin main
 
 
 renaming in git = > git M-main
+
+just by adding git push every commit will be move to remove repository that u already pushed.
